@@ -1,9 +1,8 @@
-
- import { useAddress, ConnectWallet } from '@thirdweb-dev/react';
+import { useAddress, ConnectWallet } from '@thirdweb-dev/react';
+import React from 'react';
+import '/.index.jsx';
+import '/.index.css';
 const App = () => {
-
-
- const App = () => {
   // Use the hooks thirdweb give us.
   const address = useAddress();
   console.log("👋 Address:", address);
@@ -25,16 +24,8 @@ const App = () => {
   // which means they've connected their wallet to our site!
   return (
     <div className="landing">
-      <h1>👀 wallet connected, now what!</h1>
+      <h1>wallet connected, now what!</h1>
     </div>);
 }
-
-
-  return (
-    <div className="landing">
-      <h1>Welcome to My DAO</h1>
-    </div>
-  );
-};
 
 export default App;
