@@ -7,7 +7,7 @@ import App from './App';
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { ChainId } from '@thirdweb-dev/sdk';
 
-// This is the chainId your dApp will work on.
+// This is the chainId your dApp will work on
 const activeChainId = ChainId.Goerli;
 
 // Wrap your app with the thirdweb provider
