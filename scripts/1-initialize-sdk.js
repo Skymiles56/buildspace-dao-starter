@@ -1,7 +1,6 @@
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 
-import dotenv from "dorenv";
-
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -17,10 +16,10 @@ if (!process.env.WALLET_ADDRESS  || process.env.WALLET_ADDRESS === ""){
     console.log(" Wallet Address not found.");
 }
 
-const sdk = ThirdwebSDK.fromPrivateLKey(
-    process.env.PRIVATE_KEY,
-
-    process.env.QUICKNODE_API_URL
+const sdk = ThirdwebSDK.FromPrivateLKey(
+ process.env.PRIVATE_KEY,
+ 
+ process.env.QUICKNODE_API_URL
 );
 
 (async ()=> {
