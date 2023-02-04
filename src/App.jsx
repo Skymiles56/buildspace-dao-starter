@@ -1,7 +1,7 @@
 import { useAddress, ConnectWallet } from '@thirdweb-dev/react';
 import React from 'react';
-import '/.index.jsx';
-import '/.index.css';
+import './index.js';
+import './index.css';
 const App = () => {
   // Use the hooks thirdweb give us.
   const address = useAddress();
@@ -29,3 +29,4 @@ const App = () => {
 }
 
 export default App;
+  
