@@ -1,4 +1,4 @@
-import { useAddress, ConnectWallet } from '@thirdweb-dev/react';
+import { useAddress, ConnectWallet, useContract, useNFTBalance } from '@thirdweb-dev/react';
 import React from 'react';
 import './index.js';
 import './index.css';
